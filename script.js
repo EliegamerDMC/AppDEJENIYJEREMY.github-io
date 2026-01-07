@@ -85,14 +85,14 @@ function openRewards() {
   const rewardsList = [
     { name: "Abrazo largo", cost: 2 },
     { name: "Beso", cost: 2 },
-    { name: "Elegir peli", cost: 3 },
-    { name: "Salida juntos", cost: 5 },
-    { name: "Carta", cost: 4 },
-    { name: "Día de mimos", cost: 6 },
-    { name: "Regalito", cost: 7 },
-    { name: "Foto juntos", cost: 3 },
-    { name: "Mensaje lindo", cost: 1 },
-    { name: "Premio especial", cost: 10 }
+    { name: "chape", cost: 3 },
+    { name: "Día de mimos", cost: 5 },
+    { name: "Carta", cost: 7 },
+    { name: "elejir peli o serie en rave", cost: 7 },
+    { name: "dulce o snack", cost: 8 },
+    { name: "Regalito", cost: 10 },
+    { name: "Premio especial🔥", cost: 50 },
+    { name: "Regalito", cost: 50 }
   ];
 
  rewardsList.forEach(r => {
