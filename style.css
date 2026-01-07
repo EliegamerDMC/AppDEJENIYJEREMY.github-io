@@ -1,0 +1,12 @@
+body { margin: 0; font-family: Arial, sans-serif; background: linear-gradient(135deg, #ff7eb3, #65c7f7); min-height: 100vh; display: flex; justify-content: center; align-items: center; color: #222; } #login, #app { background: white; padding: 30px; border-radius: 20px; width: 280px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,.2); } input { width: 90%; padding: 10px; margin: 8px 0; border-radius: 10px; border: 1px solid #ccc; } button { margin-top: 10px; padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer; background: #65c7f7; color: white; font-weight: bold; } button:hover { opacity: 0.9; } .hidden { display: none; } #error { color: red; font-size: 14px; } .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 15px 0; } .reward { border: 2px solid #65c7f7; padding: 10px; border-radius: 10px; font-size: 14px; } .reward button { margin-top: 5px; width: 100%; } .pending { margin-top: 15px; padding: 15px; border-radius: 15px; background: linear-gradient(135deg, #65c7f7, #ff7eb3); color: white; text-align: left; } .pending h3 { margin-top: 0; text-align: center; } .pending ul { list-style: none; padding: 0; margin: 0; } .pending li { background: rgba(255,255,255,.25); margin: 6px 0; padding: 8px; border-radius: 10px; font-size: 14px; }
+.pending li button {
+  float: right;
+  background: #2ecc71;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-weight: bold;
+}

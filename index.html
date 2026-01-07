@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>APP JYJ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="login">
+  <h1>💖 APP JYJ 💖</h1>
+  <input id="user" type="text" placeholder="Usuario">
+  <input id="pass" type="password" placeholder="Contraseña">
+<button onclick="doLogin()">Entrar</button>
+  <p id="error"></p>
+</div>
+
+<!-- APP -->
+<div id="app" class="hidden">
+ <audio id="music" loop>
+  <source src="https://raw.githubusercontent.com/EliegamerDMC/corazondemelon/main/Coraz%C3%B3n%20de%20Mel%C3%B3n%20-%20Los%20Panchos%20%20Letra..mp3" type="audio/mpeg">
+</audio>
+
+  <h2 id="welcome"></h2>
+  <p id="coins"></p>
+
+  <div id="actions"></div>
+
+  <button onclick="toggleMusic()">🎵 Música</button>
+  <button onclick="logout()">Salir</button>
+
+  <!-- LISTA DE DEUDAS -->
+  <div id="pendingBox" class="pending hidden">
+    <h3 id="pendingTitle"></h3>
+    <ul id="pendingList"></ul>
+  </div>
+</div>
+
+<!-- RECOMPENSAS (FUERA DEL APP) -->
+<div id="rewards" class="hidden">
+  <h2 id="rewardsTitle"></h2>
+  <div class="grid"></div>
+  <button onclick="backToApp()">⬅ Volver</button>
+</div>
+<!-- FIREBASE v8 (compatible con tu JS) -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
