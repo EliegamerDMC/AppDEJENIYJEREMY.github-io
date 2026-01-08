@@ -85,7 +85,7 @@ function openRewards() {
   const rewardsList = [
     { name: "Abrazo largo", cost: 2 },
     { name: "Beso", cost: 2 },
-    { name: "chape", cost: 5 },
+    { name: "chape", cost: 4 },
     { name: "Día de mimos", cost: 8 },
     { name: "Carta", cost: 10 },
     { name: "elejir peli o serie en rave", cost: 7 },
